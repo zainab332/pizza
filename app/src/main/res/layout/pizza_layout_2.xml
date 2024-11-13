@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="152dp"
+            android:layout_height="160dp"
+            android:src="@drawable/legume"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            />
+
+        <LinearLayout
+            android:layout_width="254dp"
+            android:layout_height="164dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textnom"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="42dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp">
+
+                    <LinearLayout
+                        android:layout_width="174dp"
+                        android:layout_height="56dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="56dp"
+                            android:src="@drawable/iconlegume" />
+
+                        <TextView
+                            android:id="@+id/NbLeg"
+                            android:layout_width="106dp"
+                            android:layout_height="54dp"
+                            android:layout_margin="20dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="174dp"
+                        android:layout_height="56dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="58dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/iconchrono3" />
+
+                        <TextView
+                            android:id="@+id/temps"
+                            android:layout_width="24dp"
+                            android:layout_height="56dp"
+                            android:layout_margin="10dp" />
+
+                        <TextView
+                            android:layout_width="52dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:text="min"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/iconinfo2" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

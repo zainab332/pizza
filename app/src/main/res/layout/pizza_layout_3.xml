@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="8dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/dtImage"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="288dp"
+        android:layout_height="304dp"
+        android:src="@drawable/legume" />
+
+    <TextView
+        android:id="@+id/dtnom"
+        android:layout_width="290dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-30dp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/desc"/>
+
+            <TextView
+                android:text="Description"
+                android:textStyle="italic"
+                android:layout_marginTop="9dp"
+                android:textSize="25dp"
+                android:textColor="#2C2C2C"
+                android:layout_width="344dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/dtdesc"
+        android:layout_width="372dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ingrd"/>
+
+            <TextView
+                android:text="Ingredients"
+                android:textStyle="italic"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="9dp"
+                android:textSize="25dp"
+                android:layout_width="344dp"
+                android:textColor="#2C2C2C "
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="-50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/dtingr"
+        android:layout_width="384dp"
+        android:layout_height="143dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-150dp"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
